@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: rgb(78, 13, 13);
+}
+
+h3{
+    text-align: center;
+    color: rgb(14, 14, 73);
+}
+
+p{
+    margin-right: 500px;
+    margin-left: 50px;
+ 
+}
+
+body{
+    background-color: darkolivegreen;
+}
