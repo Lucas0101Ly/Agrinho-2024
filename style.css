@@ -1,19 +1,21 @@
 h1{
     text-align: center;
-    color: rgb(78, 13, 13);
+    color: rgb(255, 0, 0);
 }
 
 h3{
     text-align: center;
     color: rgb(14, 14, 73);
+    font-size: 150%;
 }
 
 p{
-    margin-right: 500px;
-    margin-left: 50px;
+    margin-right: 400px;
+    margin-left: 200px;
+    text-align: center;
  
 }
 
 body{
-    background-color: darkolivegreen;
+    background-color: rgb(100, 236, 196);
 }
