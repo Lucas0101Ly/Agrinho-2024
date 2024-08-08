@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Alternar entre tema claro e escuro
     themeToggleButton.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        themeToggleButton.textContent = isDarkMode ? 'Tema Claro' : 'Tema Escuro';
     });
 
     // Mostrar botão "Voltar ao topo" quando a página for rolada
