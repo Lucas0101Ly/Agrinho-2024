@@ -1,16 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const themeToggleButtons = document.querySelectorAll('.theme-toggle button');
+    const themeToggleButton = document.getElementById('theme-toggle-button');
     const backToTopButton = document.getElementById('back-to-top');
 
     // Alternar entre tema claro e escuro
-    themeToggleButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            if (button.id === 'dark-theme') {
-                document.body.classList.add('dark-mode');
-            } else {
-                document.body.classList.remove('dark-mode');
-            }
-        });
+    themeToggleButton.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
     });
 
     // Mostrar botão "Voltar ao topo" quando a página for rolada
