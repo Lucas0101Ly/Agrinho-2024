@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #212529;
+    background-color: #f0f8f0; /* Cor clara e suave, semelhante ao ambiente rural */
+    color: #3a4a3e; /* Cor verde escura para o texto, lembrando a vegetação */
     line-height: 1.6;
     transition: background-color 0.3s, color 0.3s;
 }
 
 header {
-    background-color: #4a6f2f; /* Verde mais escuro para o tema agro */
+    background-color: #6b8e23; /* Verde oliva para uma sensação mais natural */
     color: #fff;
     padding: 1.5rem;
     text-align: center;
@@ -26,15 +26,15 @@ header {
 
 .theme-toggle button {
     background-color: #fff;
-    color: #4a6f2f;
-    border: 1px solid #4a6f2f;
+    color: #6b8e23;
+    border: 1px solid #6b8e23;
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 5px;
 }
 
 .theme-toggle button:hover {
-    background-color: #e9ecef;
+    background-color: #d9f0d8; /* Cor clara para hover, mantendo o tema agro */
 }
 
 main {
@@ -44,13 +44,13 @@ main {
 }
 
 h2 {
-    color: #3d6a3e; /* Verde mais claro para subtítulo */
+    color: #4a773c; /* Verde mais claro para subtítulo */
     margin-bottom: 1rem;
     text-align: center;
 }
 
 h3 {
-    color: #2a4b2e; /* Verde mais escuro para subtítulo */
+    color: #4a773c; /* Verde mais escuro para subtítulo */
     margin-top: 1rem;
     text-align: left;
 }
@@ -64,15 +64,10 @@ ul li {
     margin-bottom: 0.5rem;
 }
 
-.feature-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1rem auto;
-}
+
 
 footer {
-    background-color: #4a6f2f;
+    background-color: #6b8e23;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -83,7 +78,7 @@ footer {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: #4a6f2f;
+    background-color: #6b8e23;
     color: white;
     border: none;
     border-radius: 50%;
@@ -94,7 +89,7 @@ footer {
 }
 
 #back-to-top:hover {
-    background-color: #3d5a32;
+    background-color: #4a773c;
 }
 
 /* Tema escuro */
